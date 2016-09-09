@@ -18,6 +18,7 @@ main h1{
 h2{
     font-size: 40px;
     font-family: sans-serif;
+    clear: both;
 }
 
 p{
@@ -32,6 +33,7 @@ blockquote{
     width: 250px;
     margin: 0px;
     box-sizing: border-box;
+    float: right;
 }
 
 strong{
@@ -44,6 +46,17 @@ aside{
     text-align: center;
     padding: 20px;
     font-family: "Open Sans Condensed", sans-serif;
+    float: right;
+    clear: right;
+    box-sizing: border-box;
+}
+
+img{
+    float: right;
+}
+
+aside, img{
+    width: 15%;
 }
 
 .icones-sociais li{
@@ -83,4 +96,18 @@ footer{
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
+}
+
+.fiat{
+    float: right;
+}
+
+.petrobras{
+    float: left;
+}
+
+main{
+    float: left;
+    width: 85%;
 }
